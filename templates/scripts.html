@@ -1,0 +1,11 @@
+{% load static %}
+
+<script src={% static 'js/jquery.min.js' %}></script>
+<script src={% static 'js/bootstrap.min.js' %}></script>
+<script src={% static 'js/main.js' %}></script>
+<scripts src={% static '/tiny_mce/tiny_mce.js' %}></scripts>
+<script>
+  tinyMCE.init({
+    'selector':'textarea'
+  })
+</script>
